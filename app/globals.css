@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Exp 2: light theme tokens */
+@theme {
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-peach: #fff1e6;
+  --color-mint: #e6faf3;
+}
+
+body {
+  background: linear-gradient(180deg, #fbfaff 0%, #fff8f3 100%);
+  color: #1e1b3a;
+  min-height: 100vh;
+}
